@@ -1,6 +1,10 @@
 var recipes = {};
 
-function updateObjectWithKeyAndValue()
+function updateObjectWithKeyAndValue(obj, key, value)
+{
+  obj[key]=value;
+  return obj;
+}
 
 
 describe('Objects', function() {
